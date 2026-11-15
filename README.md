@@ -4,15 +4,7 @@ Open-source applications for connecting The AI Collective's members, chapter org
 
 ## The vision
 
-```mermaid
-flowchart LR
-    M[Members] --> P[Passport]
-    O[Chapter organizers] --> C[Chapter Organizer]
-    C --> L[Luma events]
-    R[Partners] --> A[Partners app]
-    A -->|Initiatives| C
-    C -->|Top-level metrics| A
-```
+![Architecture diagram showing member apps, chapter host, partner and admin apps, and the secure backend](https://github.com/user-attachments/assets/2fec37e1-39fe-481e-8f55-e37d312e9771)
 
 ### Roadmap
 
